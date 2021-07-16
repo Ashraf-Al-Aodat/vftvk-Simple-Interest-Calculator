@@ -1,5 +1,3 @@
-let update = true;
-
 function compute() {
     p = document.getElementById('principal').value;
 
@@ -33,13 +31,4 @@ function compute() {
 function updateRate() {
     let rateval = document.getElementById('rate').value;
     document.getElementById('rate_val').innerText = rateval;
-}
-
-function checkValidAmount(element) {
-    console.log('IN');
-    if (element.value < 1) {
-        alert('Enter a positive number');
-        element.focus();
-        update = false;
-    }
 }
