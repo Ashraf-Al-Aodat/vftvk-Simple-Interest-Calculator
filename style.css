@@ -6,15 +6,29 @@ body {
 
 h1 {
     color: gray;
-    font-family: verdana
+    font-family: verdana;
+}
 
+.container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .maindiv {
     background-color: white;
     color: black;
-    width: 300 px;
-    padding: 20 px;
-    border-radius: 25 px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    align-content: center;
+    margin: auto;
 }
-
